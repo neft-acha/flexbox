@@ -1,0 +1,124 @@
+body{
+    background-color: rgba(245, 245, 220, 0.636);
+}
+.flexcont{
+    background-color: aqua;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.caja{
+    background-color: black;
+    color: whitesmoke;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    text-align: center;
+}
+.flexcont1{
+    display: flex;
+    margin: 0 auto;
+    margin: 20px;
+    height: 600px;
+}
+.box{
+    padding: 10px;
+    text-align: left;
+    margin: 1px;
+}
+.b1{
+    background-color: rgb(144, 199, 221);
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+.b2{
+    background-color: rgb(69, 69, 80);
+    color: whitesmoke;
+    flex-grow: 1;
+    flex-basis: 80%;
+}
+.flexcont2{
+    display: flex;
+    margin: 0 auto;
+    margin: 100px;
+    height: 400px;  
+    line-height: 2px;   
+}
+.b3{
+    background-color: rgba(146, 218, 247, 0.562);
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+.b4{
+    background-color: rgb(55, 171, 149);
+    color: whitesmoke;
+    flex-grow: 1;
+    flex-basis: 80%;
+}
+p{
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+hr{
+    background-color: black;
+    height: 1px;
+    border: black;
+}
+.flexcont3{
+    display: flex;
+    margin: 0 auto;
+    margin: 400px;
+    height: 400px; 
+    width: 600px; 
+    line-height: 2px;
+    flex-direction: column;
+}
+.boxy{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+.b5{
+    background-color: black;
+    flex-basis: 20%;
+    color: white;
+}
+.b6{
+    background-color: rgba(245, 245, 245, 0.842);
+    flex-basis: 60%;
+    color: black;
+}
+.b7{
+    background-color: grey;
+    flex-basis: 20%;
+    color: white;
+}
+.flexcont4{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    height: 1000px;
+    width: 800px;
+    margin: 0 auto;
+}
+.maq{
+    margin: 1px white;
+}
+.b8{
+    background-color: rgb(35, 81, 104);
+    flex-basis: 100%;
+}
+.b9{
+    background-color: rgba(25, 210, 183, 0.601);
+    flex-basis: 50%;
+}
+.b10{
+    flex-basis: 50%;
+    background-color: rgba(41, 173, 89, 0.595);
+}
